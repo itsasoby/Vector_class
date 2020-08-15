@@ -15,7 +15,7 @@ public:
 	void PushBack(const T& value) {
 
 		//if there's no room for the new element, makes room for half the current storage
-		//capacity. In fact, you could double it or whatever, but I like to show pity
+		//capacity. In fact, you could double it or whatever, but I like to have room
 		//for the memory, even though it's heap and there's a LOT of it
 
 		if (aSize >= aCapacity) {
