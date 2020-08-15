@@ -34,7 +34,7 @@ struct Vector3 {
 		return *this;
 	}
 	Vector3& operator=(const Vector3&& other) noexcept {
-		std::cout << "Copy\n";
+		std::cout << "Move\n";
 		x = other.x;
 		y = other.y;
 		z = other.z;

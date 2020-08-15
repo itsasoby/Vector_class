@@ -24,11 +24,27 @@ void Printvector(const Vector<Vector3>& vector) {
 int main()
 {
     Vector<Vector3> vector;
-    vector.PushBack(Vector3(1.0f));
-    vector.PushBack(Vector3(2, 3, 4));
-    vector.PushBack(Vector3());
-
+    vector.EmplaceBack(1.0f);
+    vector.EmplaceBack(2, 3, 4);
+    vector.PopBack();
+    vector.EmplaceBack(1.0f);
+    vector.EmplaceBack(8, 5, 4);
+    vector.EmplaceBack(8.0f);
+    vector.PopBack();
     Printvector(vector);
+    vector.EmplaceBack(1, 2, 6);
+    vector.EmplaceBack(1.0f);
+    vector.EmplaceBack(1, 9, 5);
+    vector.EmplaceBack(1.7f);
+    vector.PopBack();
+    Printvector(vector);
+    vector.Clear();
+    vector.EmplaceBack(2, 7, 5);
+    vector.EmplaceBack(1.0f);
+    vector.EmplaceBack(1, 9, 5);
+    vector.EmplaceBack();
+    Printvector(vector);
+
     std::cin.get();
 }
 
