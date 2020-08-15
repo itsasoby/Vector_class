@@ -1,6 +1,6 @@
 # Vector_class
 An implementation of std::vector!
-Tried to make this as cross-platform as I could, and it compiles well on macOS, Windows and Fedora.
+Tried to make this as cross-platform as I could, and I'm sure it compiles well on macOS, Windows and Fedora.
 
 # Why
 I wrote this as an exercise while deep-learning data structures and memory management in C++. This is a fairly simple implementation of std::vector, tweakable as much as you want it to be and it's pretty sweet.
