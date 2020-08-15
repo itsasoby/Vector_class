@@ -5,7 +5,7 @@ template<typename T>
 class Vector {
 public:
 	Vector() {
-		//allocate 2 elements for start
+		//allocate 2 elements for a start
 		ReAlloc(2);
 	}
 	~Vector() {
