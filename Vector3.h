@@ -3,7 +3,7 @@
 
 //a quick Vector3 implementation
 //Vector3 is used in many ways, basically having three scalars means it
-//could be a forward vector, WorldLocation or whereever you'd need 3 scalars
+//could be a forward vector, WorldLocation or wherever you'd need 3 scalars
 //in one place. Pretty useful!
 
 struct Vector3 {
